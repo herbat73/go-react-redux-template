@@ -13,7 +13,7 @@ Minimal Go React Redux template
 
 `npm install -i`
 
-5. Build go lang sources
+5. Build GoLang sources
 
 `go build`
 
