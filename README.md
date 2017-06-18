@@ -11,7 +11,7 @@ Minimal Go React Redux template
 
 4. Build by npm
 
-`npm install -i`
+`npm i`
 
 5. Build GoLang sources
 

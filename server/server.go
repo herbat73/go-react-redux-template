@@ -38,5 +38,5 @@ func initRoutes(mx *mux.Router, formatter *render.Render) {
 		}
 	}
 
-	mx.PathPrefix("/").Handler(http.FileServer(http.Dir(webRoot + "/assets/")))
+	mx.PathPrefix("/").Handler(http.FileServer(http.Dir(webRoot + "/build/")))
 }

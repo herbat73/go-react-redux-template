@@ -1,7 +1,8 @@
 node_modules/
+build/
 *-compiled.js
 *-compiled.js.map
 npm-debug.log
 
 go-react-redux-template
-/assets/bundle.js
+package-lock.json
