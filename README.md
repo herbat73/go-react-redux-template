@@ -7,7 +7,7 @@ Minimal Go React Redux template
 2. Install NPM
 3. Install WebPack via npm
 
-npm install webpack -g
+`npm install webpack -g`
 
 4. Build by npm
 
