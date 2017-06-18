@@ -11,22 +11,29 @@ npm install webpack -g
 
 4. Build by npm
 
-npm install -i
+`npm install -i`
 
 5. Build go lang sources
 
-'go build'
+`go build`
 
 6. Start webpack
 
-webpack
+`webpack`
 
 or webpak with watchmode, Webpack will watch your files and when one of them changes, it will immediately rerun the build and recreate your output file.
 
-webpack --watch
+`webpack --watch`
 
 when you run the webpack watch command, webpack will rebuild your bundle when any of your files change (jsx).
 
+7. Run the server
+
+`./go-react-redux-template`
+
+8. Open browser
+
+`localhost:8100`
 
 ## License
 
