@@ -3,5 +3,5 @@ node_modules/
 *-compiled.js.map
 npm-debug.log
 
-flux-template
+go-react-redux-template
 /assets/bundle.js
