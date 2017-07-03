@@ -47,10 +47,10 @@ const common = {
     },
     plugins: [
         new HtmlwebpackPlugin({
-            template: 'node_modules/html-webpack-template/index.ejs',
-            title: 'GoReact app',
+            template: path.join(PATHS.app, 'index.html'),
+            path: PATHS.build,
             appMountId: 'app',
-            inject: false
+            filename: 'index.html',
         }),
         new webpack.LoaderOptionsPlugin({
             minimize: true
